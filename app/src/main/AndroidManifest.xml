@@ -10,8 +10,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.BarberShop"
+        android:theme="@style/Base.Theme.BarberShop"
         tools:targetApi="31">
+        <activity
+            android:name=".view.Agendamento"
+            android:exported="false" />
         <activity
             android:name=".view.Home"
             android:exported="false" />

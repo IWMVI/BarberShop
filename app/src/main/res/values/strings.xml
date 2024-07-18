@@ -4,4 +4,8 @@
     <string name="senha">Senha</string>
     <string name="nome">Nome</string>
     <string name="barber_shop">Barber Shop</string>
+    <string name="all_services">Todos os serviços</string>
+    <string name="boas_vindas">"Bem-vindo(a), "</string>
+    <string name="agendar">Agendar</string>
+    <string name="corte_de_cabelo">Corte de cabelo</string>
 </resources>
