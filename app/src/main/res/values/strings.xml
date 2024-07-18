@@ -8,4 +8,11 @@
     <string name="boas_vindas">"Bem-vindo(a), "</string>
     <string name="agendar">Agendar</string>
     <string name="corte_de_cabelo">Corte de cabelo</string>
+    <string name="agendamento">Agendamento</string>
+    <string name="data">Data</string>
+    <string name="hora">Hora</string>
+    <string name="escolha_um_profissional">Escolha um profissional</string>
+    <string name="cicrano_de_tal">Cicrano de tal</string>
+    <string name="beltrano_de_tal">Beltrano de tal</string>
+    <string name="fulano_de_tal">Fulano de tal</string>
 </resources>

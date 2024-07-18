@@ -1,5 +1,6 @@
 package br.edu.fateczl.view
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
@@ -29,6 +30,12 @@ class Home : AppCompatActivity() {
         recyclerViewServicos.setHasFixedSize(true)
         recyclerViewServicos.adapter = servicosAdapter
         getServicos()
+
+        binding.btnAgendar.setOnClickListener {
+            val intent = Intent(this, Agendamento::class.java)
+            intent.putExtra("nome", nome)
+            startActivity(intent)
+        }
     }
 
     private fun getServicos() {
